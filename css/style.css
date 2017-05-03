@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.counterbox{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    background-color: #ff3333;
+}
+
+.counterbox div{
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .counterbox div{
+        width: 100%;
+    }
+}
+.clockbox{
+    width: 100%;
+    height: auto;
+    padding: 70px;
+    text-align: center;
+    background-color: #3a3ca2;
+}
+
+.clockbox span{
+    font-size: 50px;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px){
+    .clockbox span{
+        font-size: 30px;
+    }
+}
+
+.timebox{
+    width: 100%;
+    height: auto;
+    padding: 70px;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+.timebox span{
+    font-size: 50px;
+    color: #ff3;
+}
+
+@media screen and (max-width: 600px){
+    .timebox span{
+        font-size: 30px;
+    }
+}
+
+.timebox p{
+    color: #fff;
+}
+
+.timebox t{
+    opacity: 0.5;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}

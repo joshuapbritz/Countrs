@@ -24,7 +24,9 @@ Finally, initialize the counter:`counterUp(el, speed, delay);`
 
 In the HTML:
 ```
-counterUp('counter-up', 2500, 1000);
+<script>
+    counterUp('counter-up', 2500, 1000);
+</script>
 ```
 Or in a seperate file:
 ```
